@@ -4,10 +4,78 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Support Us</title>
-        <link
-            rel="stylesheet"
-            href="/style.css"
-        />
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+                text-align: center;
+            }
+            
+            .hero h1 {
+                font-size: 2.5em;
+                margin: 0;
+                color: black;
+                z-index: 1; /* Keeps text above the overlay */
+            }
+            
+            /* About Section */
+            .about {
+                background-color: #f4f4f4;
+                padding: 60px 20px;
+            }
+            
+            .about .container {
+                max-width: 800px;
+                margin: auto;
+                font-size: 1.2em;
+            }
+            
+            /* Giving Section */
+            .giving {
+                background-color: #333;
+                color: white;
+                padding: 60px 20px;
+            }
+            
+            .giving .container {
+                max-width: 600px;
+                margin: auto;
+                font-size: 1.2em;
+            }
+            
+            .giving ul {
+                list-style: none;
+                padding: 0;
+            }
+            
+            .giving li {
+                font-size: 1.2em;
+                margin: 10px 0;
+            }
+            
+            /* Mobile-Friendly Adjustments */
+            @media (max-width: 768px) {
+                .hero {
+                    padding: 12vh 10px;
+                }
+            
+                .about,
+                .giving {
+                    padding: 40px 15px; /* Reducing padding for smaller screens */
+                }
+            
+                .about .container,
+                .giving .container {
+                    font-size: 1em; /* Adjusting text size */
+                }
+            
+                .giving li {
+                    font-size: 1em;
+                }
+            }
+        </style>
     </head>
     <body>
         <!-- Text Section -->
